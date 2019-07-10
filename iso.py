@@ -1,10 +1,10 @@
-s,v=map(str,input().split())
-if(len(sn)!=len(vg)):
- print("no")
+a,d=map(str,input().split())
+if(len(a)!=len(d)):
+    print("no")
+else :
+    s12=[a.count(i) for i in a]
+    s22=[d.count(i) for i in d]
+if(s12==s22):
+    print("yes")
 else:
- s22=[sn.count(i) for i in s]
- s32=[vg.count(i) for i in v]
-if(s22==s32):
- print("yes")
-else:
- print("no")
+    print("no")
