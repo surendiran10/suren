@@ -1,12 +1,12 @@
-k=int(input())
-pk=[]
-for i in range(0,k):
+k1=int(input())
+pk1=[]
+for i in range(0,k1):
  ij=input()
- pk.append(ij)
-ff=[]
-for i in zip(*pk):
+ pk1.append(ij)
+ff1=[]
+for i in zip(*pk1):
  if(i.count(i[0])==len(i)):
-  ff.append(i[0])
+  ff1.append(i[0])
  else:
   break
-print(''.join(ff))
+print(''.join(ff1))
