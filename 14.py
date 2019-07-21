@@ -1,6 +1,6 @@
-s,k=map(int,input().split())
+s,a=map(int,input().split())
 k=[]
-for i in range(l+1,u):
+for i in range(s+1,a):
     if(i%2!=0):
-        k.append(i)
-print(k)
+        print(i,end=" ")
+	
