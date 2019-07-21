@@ -1,13 +1,13 @@
-s=153
-sum=0
-temp=s
-while(temp>0):
-	dig=temp%10
-	sum+=dig**3
-	temp//=10
-	
-	
-if(s==sum):
-	print("yes")
-else:
-	print("no")
+n= int(input(""))  
+s = 0  
+temp = n
+  
+while temp > 0:  
+   digit = temp % 10  
+   s += digit ** 3  
+   temp //= 10  
+  
+if n==s:  
+   print("yes")  
+else:  
+   print("no")  
