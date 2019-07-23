@@ -1,6 +1,6 @@
-a=int(input(""))
-l=[]
-for i in range(a):
-	n=int(input(""))
-	l.append(n)
-print(max(l))
+N=int(input(""))
+arr=[]
+for i in range(N):
+	a=int(input(""))
+	arr.append(a)
+print(max(arr))
