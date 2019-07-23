@@ -1,8 +1,7 @@
-try:
-	arr=[]
-	while True:
-		arr.append(int(input()))
-except:
-	arr.sort()
-	print(arr[-1])
-	
+n=int(input(""))
+l=[]
+for i in range(0,n):
+	ele=int(input())
+	l.append(ele)
+l.sort()
+print(l[-1])
