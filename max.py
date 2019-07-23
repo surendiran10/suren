@@ -1,6 +1,8 @@
-N=int(input(""))
-arr=[]
-for i in range(N):
-	a=input("")
-	arr.append(a)
-print(max(arr))
+try:
+	arr=[]
+	while True:
+		arr.append(int(input()))
+except:
+	arr.sort()
+	print(arr[-1])
+	
