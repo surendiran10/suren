@@ -1,4 +1,6 @@
 a=int(input(""))
 l=[]
-l.append(a)
+for i in range(a):
+	n=int(input(""))
+	l.append(n)
 print(max(l))
